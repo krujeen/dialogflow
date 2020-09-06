@@ -1,0 +1,12 @@
+{
+  "line": {
+    "type": "video",
+    "originalContentUrl": "https://s3-ap-southeast-1.amazonaws.com/dezpax/b_files/video_example.mp4",
+    "previewImageUrl": "https://3.bp.blogspot.com/-POLCd-KKazc/W9EtNxsqwpI/AAAAAAAAW_0/c8P1A4Ik3tMsCXZwaI1B2n3eXZqG0ifzwCLcBGAs/s1600/sao-preview.jpg"
+  }
+}
+
+
+type: เป็นตัวกำหนดประเภทของการตอบกลับ ในที่นี้คือ video
+originalContentUrl: Url ของไฟล์วิดีโอที่มีจำนวนตัวอักษรไม่เกิน 1,000 ตัวอักษร เป็น HTTPS และมีขนาดไม่เกิน 10 MB
+previewImageUrl: Url ของไฟล์รูปภาพที่ใช้แสดงซึ่งมีจำนวนตัวอักษรไม่เกิน 1,000 ตัวอักษร เป็น HTTPS และมีขนาดไม่เกิน 1 MB
