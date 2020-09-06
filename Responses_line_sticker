@@ -1,0 +1,12 @@
+{
+  "line": {
+    "type": "sticker",
+    "packageId": "1",
+    "stickerId": "1"
+  }
+}
+
+
+type: เป็นตัวกำหนดประเภทของการตอบกลับ ในที่นี้คือ sticker
+packageId: รหัสแพ็กเกจของสติกเกอร์ที่ต้องการส่ง ดูได้จาก https://developers.line.biz/media/messaging-api/sticker_list.pdf
+stickerId: รหัสของสติกเกอร์ที่ต้องการส่ง ดูได้จาก https://developers.line.biz/media/messaging-api/sticker_list.pdf
