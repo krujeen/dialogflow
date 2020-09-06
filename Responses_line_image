@@ -5,3 +5,8 @@
     "originalContentUrl": "https://pbs.twimg.com/profile_images/1201917749846409217/oq7ZvXJ8_400x400.jpg"
   }
 }
+
+
+type: เป็นตัวกำหนดประเภทของการตอบกลับ ในที่นี้คือ image
+originalContentUrl: Url ของไฟล์รูปภาพต้นฉบับที่มีจำนวนตัวอักษรไม่เกิน 1,000 ตัวอักษร เป็น HTTPS และมีขนาดไม่เกิน 1 MB
+previewImageUrl: Url ของไฟล์รูปภาพที่ใช้แสดงซึ่งมีจำนวนตัวอักษรไม่เกิน 1,000 ตัวอักษร เป็น HTTPS และมีขนาดไม่เกิน 1 MB
