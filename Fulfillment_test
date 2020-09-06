@@ -1,0 +1,17 @@
+  function test(agent) {
+    let a = request.body.queryResult.parameters.tiredtype;
+    let b = request.body.queryResult.parameters.sleeptype;
+    if ((a == "1") && (b == "1")) {
+		agent.add('ดีแล้ว ขอให้มีความสุขนะ');
+    }else if ((a == "1") && (b == "2")) {
+		agent.add('พักผ่อนบ้างนะ');
+    }else if ((a == "2") && (b == "1")) {
+		agent.add('เป็นกำลังใจให้สู้ๆ');
+    }else {
+		agent.add('อย่างทำงานหนักนะ พักผ่อนด้วย');
+    }
+  }
+  
+  
+  
+    intentMap.set('test', test);
