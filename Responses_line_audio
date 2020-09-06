@@ -1,0 +1,13 @@
+{
+  "line": {
+    "type": "audio",
+    "originalContentUrl": "https://s3-ap-southeast-1.amazonaws.com/dezpax/b_files/audio_example.m4a",
+    "duration": 10000
+  }
+}
+
+
+
+type: เป็นตัวกำหนดประเภทของการตอบกลับ ในที่นี้คือ audio
+originalContentUrl: Url ของไฟล์เสียงที่มีจำนวนตัวอักษรไม่เกิน 1,000 ตัวอักษร เป็น HTTPS และมีขนาดไม่เกิน 10 MB
+duration: ความยาวของไฟล์เสียง หน่วยเป็น milliseconds ( 1 วินาที = 1,000 milliseconds )
